@@ -35,16 +35,23 @@ h2 {
 }
 
 .columns-talk-info {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  -webkit-column-width: 150px;
-  -moz-column-width: 150px;
-  column-width: 150px;
+  -webkit-columns: 2 150px;
+  -moz-columns: 2 150px;
+  columns: 2 150px;
+  -webkit-column-gap: 2em;
+  -moz-column-gap: 2em;
+  column-gap: 2em;
+
+}
+
+.columns-talk-info p {
+  font-size: 1.1em;
+  color: #5c626a;
 }
 
 ul {
   list-style-type: square;
+  padding-left: 6px;
 }
 
 li {
@@ -54,7 +61,6 @@ li {
 .box {
   background-color: #fff;
   border: 2px solid #ddd;
-  font-size: 1.2em;
   margin-top: 1em;
   margin-bottom: 1em;
 }
@@ -62,6 +68,7 @@ li {
 .box p {
   padding-left: 1em;
   padding-right: 1em;
+  font-size: 1em;
 }
 
 a {
@@ -70,9 +77,8 @@ a {
 
 .button {
   background-color: #c56c76;
-  color: #f5f3f0;
   text-align: center;
-  max-width: 30%;
+  max-width: 40%;
   margin-left: auto;
   margin-right: auto;
   border: none;
@@ -81,4 +87,5 @@ a {
 
 .button p {
   padding: 10px;
+  color: #f5f3f0;
 }
