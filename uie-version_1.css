@@ -1,0 +1,64 @@
+header {
+  background: #5c5c6a url("assets/images/background.jpg") no-repeat scroll 50% 50%;
+  height: 8em;
+}
+
+.ux-conference-2016-title {
+  position: absolute;
+  max-width: 60%;
+  top: 4%;
+  left: 21%;
+}
+
+.banner {
+  height: 1em;
+  background: #313137;
+}
+
+body {
+  color: #797166;
+  background: #f5f3f0;
+  line-height: 1.2;
+  font-family: "lft-etica", "Helvetica Neue", Arial, sans-serif;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #5c626a;
+}
+
+.row {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.columns-talk-info {
+  column-count: 2;
+  column-width: auto;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  margin: 0.5em;
+}
+
+.box {
+  background-color: #f5f3f4;
+  border: 1px solid #ddd;
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.box p {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+a {
+  color: #c56c76;
+}
