@@ -19,7 +19,8 @@ body {
   color: #797166;
   background: #f5f3f0;
   line-height: 1.2;
-  font-family: "lft-etica", "Helvetica Neue", Arial, sans-serif;
+  font: normal normal normal 1em/1.5 "lft-etica", "Helvetica Neue", Arial, sans-serif;
+  margin: 0em;
 }
 
 h2 {
@@ -47,7 +48,7 @@ li {
 }
 
 .box {
-  background-color: #f5f3f4;
+  background-color: #fff;
   border: 1px solid #ddd;
   font-size: 1.2em;
   margin-top: 1em;
