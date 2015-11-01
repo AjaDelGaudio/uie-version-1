@@ -40,13 +40,19 @@ h2 {
   columns: 2 150px;
   -webkit-column-gap: 2em;
   -moz-column-gap: 2em;
+  -ms-column-gap: 2em;
   column-gap: 2em;
-
+  height: 100%;
 }
 
 .columns-talk-info p {
   font-size: 1.1em;
   color: #5c626a;
+}
+
+.column-1-talk-info {
+  -webkit-column-span: none;
+  column-span: none;
 }
 
 ul {
