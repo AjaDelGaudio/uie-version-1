@@ -100,24 +100,23 @@ a {
   -webkit-columns: 2 auto;
   -moz-columns: 2 auto;
   columns: 2 auto;
-  -webkit-column-gap: 0.25em;
-  -moz-column-gap: 0.25em;
-  column-gap: 0.25em;
+  padding-left: 0;
+  padding-bottom: 1em;
+  -webkit-column-gap: 0;
+  -moz-column-gap: 0;
+  column-gap: 0;
   float: left;
 }
 
 h3 {
+  font-weight: normal;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
-h4 {
-  font-weight: normal;
-  margin-top: 0;
-}
-
 .talk-description img {
-  height: 80px;
-  width: 80px;
+  height: 120px;
+  width: 120px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
