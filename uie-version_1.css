@@ -36,9 +36,9 @@ h2 {
 }
 
 .columns-talk-info {
-  -webkit-columns: 2 150px;
-  -moz-columns: 2 150px;
-  columns: 2 150px;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
   -webkit-column-gap: 2em;
   -moz-column-gap: 2em;
   -ms-column-gap: 2em;
@@ -54,6 +54,23 @@ h2 {
   margin-top: 0;
   font-size: 1.2em;
 }
+
+.column-1-talk-info {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  -webkit-column-width: 500px;
+  -moz-column-width: 500px;
+  -ms-column-width: 500px;
+  column-width: 500px;
+}
+
+.column-2-talk-info {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
 
 ul {
   list-style-type: square;
@@ -96,7 +113,7 @@ a {
   color: #f5f3f0;
 }
 
-.talk-description .row {
+.first-row .row {
   -webkit-columns: 2 auto;
   -moz-columns: 2 auto;
   columns: 2 auto;
@@ -104,14 +121,20 @@ a {
   padding-bottom: 1em;
   -webkit-column-gap: 0;
   -moz-column-gap: 0;
+  -ms-column-gap: 0;
   column-gap: 0;
   float: left;
 }
 
+
 h3 {
-  font-weight: normal;
+  font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+h3 a {
+  font-weight: normal;
 }
 
 .talk-description img {
@@ -123,6 +146,6 @@ h3 {
 }
 
 .talk-description p {
-  float: clear;
   width: 33%;
+  min-width: 325px;
 }
