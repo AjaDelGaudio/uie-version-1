@@ -449,7 +449,7 @@ section {
   max-width: 960px;
   margin: 0 auto;
   display: block;
-  height: auto;
+  clear: both;
 }
 
 h2 {
@@ -468,6 +468,7 @@ h2 {
   -moz-columns: 2;
   columns: 2;
   height: auto;
+  
 }
 
 .columns-half p {
@@ -559,7 +560,6 @@ a.top-button {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding-bottom: 2em;
 }
 
 .grid:after {
