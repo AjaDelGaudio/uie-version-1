@@ -425,6 +425,8 @@ th {
   padding: 0;
 }
 
+/** end normalize **/
+
 
 header {
   background: #5c5c6a url("assets/images/background.jpg") no-repeat scroll 50% 50%;
@@ -441,7 +443,7 @@ header {
 body {
   color: #797166;
   background: #f5f3f0;
-  font: 1.2em/1.5 'Cabin', sans-serif;
+  font: 1.2em/1.5 'Cabin', Arial, sans-serif;
   margin: 0;
 }
 
