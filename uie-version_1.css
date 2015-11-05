@@ -449,10 +449,13 @@ body {
 
 section {
   max-width: 960px;
-  max-height: 650px;
   margin: 0 auto;
   display: block;
   clear: both;
+}
+
+section:first-of-type {
+  max-height: 650px;
 }
 
 h2 {
